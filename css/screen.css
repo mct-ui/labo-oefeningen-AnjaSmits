@@ -382,7 +382,7 @@ a:focus {
 /*------------------------------------*\
   #COMPONENTS
 \*------------------------------------*/
-.c-logo{
+.c-logo {
     height: 32px;
     display: flex;
     align-items: center;
@@ -397,7 +397,6 @@ a:focus {
     ---
     Main header of the website
 */
-
 .c-header {
     display: flex;
     justify-content: space-between;
@@ -410,6 +409,7 @@ a:focus {
 }
 
 @media (min-width: 992px) {
+
     .c-header__logo,
     .c-header__nav {
         flex-grow: 1;
@@ -436,7 +436,6 @@ a:focus {
     ---
     Main navigation of the site
 */
-
 .c-nav {
     font-size: inherit;
     line-height: inherit;
@@ -447,11 +446,9 @@ a:focus {
     ---
     Main navigation of the site
 */
-
 .c-nav {
     font-size: 18px;
     line-height: 24px;
-
 }
 
 .c-nav--meta {
@@ -499,6 +496,22 @@ a:focus {
     }
 }
 
+/*------------------------------------*\
+  Buttons
+\*------------------------------------*/
+.c-btn {
+    display: inline-block;
+    line-height: 24px;
+    padding: inherit;
+    flex: 1 1 auto;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
+    box-shadow: 0 0 10px #0A257D;
+}
 
 /*------------------------------------*\
   #UTILITIES
